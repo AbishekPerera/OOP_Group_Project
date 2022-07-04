@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+
+#transactionHistory{
+    position:relative;
+    left:150px;
+    
+}
+
+#transactionHistory th,td{
+       width:120px;
+	 border: 1px solid white;
+      border-collapse: collapse;
+    padding:2px;
+}
+
+#transactionHistory tr:hover{
+    transition:0.5s;
+    transform:scale(1.01);
+    background-color:#3c73ff82
+}
+
+#transactionHistory th{
+    color:white;
+    border: 1px solid black;
+}

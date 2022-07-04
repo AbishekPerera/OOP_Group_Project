@@ -1,0 +1,52 @@
+.gridform {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px
+}
+
+#forms {
+	width: 270px;
+	background-color:#c2f1fd94;
+	border-radius:10px;
+	padding:5px;
+	box-shadow: 5px 5px #0000000f;
+}
+
+.form_Select{
+	position:absolute;
+	margin-top:80px;
+	margin-left:100px;
+}
+
+.form_Select h2{
+	font-size:20px;
+}
+
+.title{
+	
+	font-size:30px;
+}
+
+#forms .submit{
+	height:30px;
+	width:70px;
+	margin-top:10px;
+	border-radius:10px;
+	border:none;
+	background-color:#6565ff57;
+	transition: 0.5s;
+	font-size:20px;
+}
+
+#forms .submit:hover{
+	cursor: pointer;
+	background-color:#0000ff61;
+	transform: scale(1.1);
+	color:white;
+}
+
+#form_Selectid{
+	background-image: url("../images/home/homebg.jpg");
+	background-size: cover;
+	height:800px;
+}

@@ -1,0 +1,9 @@
+.loanCardslist{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 1000px;
+    height: 500px;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
