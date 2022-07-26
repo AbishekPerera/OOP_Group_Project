@@ -283,5 +283,48 @@
 	</servlet-mapping>
 
 
+	
+	
+	<servlet>
+		<servlet-name>inquiryServlet</servlet-name>
+		<servlet-class>com.oop.servlet.InquiryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>inquiryServlet</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>inquiryServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>contactUsServlet</servlet-name>
+		<servlet-class>com.oop.servlet.ContactUsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>contactUsServlet</servlet-name>
+		<url-pattern>/contactUs</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>adminServlet</servlet-name>
+		<servlet-class>com.oop.servlet.AdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminServlet</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>adminServlet</servlet-name>
+		<url-pattern>/adminInq</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>adminServlet</servlet-name>
+		<url-pattern>/adminContUs</url-pattern>
+	</servlet-mapping>
 
 </web-app>
